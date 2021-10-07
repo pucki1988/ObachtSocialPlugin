@@ -7,7 +7,7 @@
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<authorEmail>schuster-andi@gmx.de</authorEmail>
 	<authorUrl>www.obacht.de</authorUrl>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<description>Plugin zur Erstellung von Social Media Optimierungen von Obacht!</description>
 	<files>
 		<filename plugin="social_obacht">social_obacht.php</filename>
