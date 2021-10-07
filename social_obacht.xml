@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.1" type="plugin" group="system" method="upgrade">
+	<name>Obacht! Social Plugin</name>
+	<author>Andreas Schuster</author>
+	<creationDate>März 2021</creationDate>
+	<copyright>Copyright (C) 2020 - 2021 Obacht! All rights reserved.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<authorEmail>schuster-andi@gmx.de</authorEmail>
+	<authorUrl>www.obacht.de</authorUrl>
+	<version>1.0.0</version>
+	<description>Plugin zur Erstellung von Social Media Optimierungen</description>
+	<files>
+		<filename plugin="social_obacht">social_obacht.php</filename>
+		<filename>index.html</filename>
+	</files>
+	<languages>
+		<language tag="de-DE">language/de-DE.plg_system_social_obacht.ini</language>
+		<language tag="de-DE">language/de-DE.plg_system_social_obacht.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="og_tags" label="PLG_SYSTEM_SOCIAL_OBACHT_OGTAGS">
+				<field type="note" name="test" label="PLG_SYSTEM_SOCIAL_OBACHT_OG_HEADER_LABEL_DEFAULT" description="PLG_SYSTEM_SOCIAL_OBACHT_OG_HEADER_DESC_DEFAULT" />
+				<field type="text" name="og_title_default"
+					label="PLG_SYSTEM_SOCIAL_OBACHT_OG_TITLE_DEFAULT"
+					maxlength="95"
+				/>
+
+				<field type="textarea" name="og_desc_default"
+					label="PLG_SYSTEM_SOCIAL_OBACHT_OG_DESC_DEFAULT"
+					maxlength="297"
+				/>
+
+				<field type="url" name="og_url_default"
+					label="PLG_SYSTEM_SOCIAL_OBACHT_OG_URL_DEFAULT"
+				/>
+
+				<field type="media" name="og_image_default"
+					label="PLG_SYSTEM_SOCIAL_OBACHT_OG_IMAGE_DEFAULT"
+				/>
+					
+				<field type="number" name="og_desc_length"
+				       label="PLG_SYSTEM_SOCIAL_OBACHT_OG_LENGTH"
+				       max="297"
+					   default="100"
+				/>
+				<field type="category" name="og_content_categories" 
+				 extension="com_content" 
+				 label="PLG_SYSTEM_SOCIAL_OBACHT_OG_CONTENT_CATEGORIES" 
+				 multiple="true" />
+				 
+			</fieldset>
+		</fields>
+	</config>
+
+	<updateservers>
+		<server type="extension" name="PLG_SYSTEM_SOCIAL_OBACHT" priority="1"><![CDATA[https://raw.githubusercontent.com/]]></server>
+	</updateservers>
+
+</extension>
