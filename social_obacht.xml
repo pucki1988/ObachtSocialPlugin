@@ -8,7 +8,7 @@
 	<authorEmail>schuster-andi@gmx.de</authorEmail>
 	<authorUrl>www.obacht.de</authorUrl>
 	<version>1.0.0</version>
-	<description>Plugin zur Erstellung von Social Media Optimierungen</description>
+	<description>Plugin zur Erstellung von Social Media Optimierungen von Obacht!</description>
 	<files>
 		<filename plugin="social_obacht">social_obacht.php</filename>
 		<filename>index.html</filename>
