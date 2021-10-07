@@ -54,7 +54,7 @@
 	</config>
 
 	<updateservers>
-		<server type="extension" name="PLG_SYSTEM_SOCIAL_OBACHT" priority="1"><![CDATA[https://raw.githubusercontent.com/]]></server>
+		<server type="extension" name="PLG_SYSTEM_SOCIAL_OBACHT" priority="1"><![CDATA[https://raw.githubusercontent.com/pucki1988/ObachtSocialPlugin/main/manifest.xml]]></server>
 	</updateservers>
 
 </extension>
