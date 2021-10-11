@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<extension version="3.1" type="plugin" group="system" method="upgrade">
+<extension version="4.0.0" type="plugin" group="system" method="upgrade">
 	<name>Obacht! Social Plugin</name>
 	<author>Andreas Schuster</author>
-	<creationDate>März 2021</creationDate>
+	<creationDate>11.10.2021</creationDate>
 	<copyright>Copyright (C) 2020 - 2021 Obacht! All rights reserved.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<authorEmail>schuster-andi@gmx.de</authorEmail>
-	<authorUrl>www.obacht.de</authorUrl>
-	<version>1.0.1</version>
+	<authorUrl>www.obacht-idee.de</authorUrl>
+	<version>4.0.0</version>
 	<description>Plugin zur Erstellung von Social Media Optimierungen von Obacht!</description>
 	<files>
 		<filename plugin="social_obacht">social_obacht.php</filename>
