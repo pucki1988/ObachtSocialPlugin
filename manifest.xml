@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <updates>
 	<update>
 		<name><![CDATA[ Obacht! Social Plugin ]]></name>
@@ -18,26 +17,6 @@
 		<maintainerurl>http://www.obacht-idee.de</maintainerurl>
 		<section>Updates</section>
 		<targetplatform name="joomla" version="3.([89]|10)"/>
-		<client>site</client>
-	</update>
-	<update>
-		<name><![CDATA[ Obacht! Social Plugin ]]></name>
-		<description><![CDATA[ Plugin zur Erstellung von Social Media Optimierungen ]]></description>
-		<element>social_obacht</element>
-		<folder>system</folder>
-		<type>plugin</type>
-		<version>4.0.0</version>
-		<infourl title="Obacht!">http://www.obacht-idee.de/</infourl>
-		<downloads>
-			<downloadurl type="full" format="zip">https://github.com/pucki1988/ObachtSocialPlugin/releases/download/4.0.0/ObachtSocialPlugin.zip</downloadurl>
-		</downloads>
-		<tags>
-			<tag>stable</tag>
-		</tags>
-		<maintainer><![CDATA[ Obacht! ]]></maintainer>
-		<maintainerurl>http://www.obacht-idee.de</maintainerurl>
-		<section>Updates</section>
-		<targetplatform name="joomla" version="4.*"/>
 		<client>site</client>
 	</update>
 </updates>
